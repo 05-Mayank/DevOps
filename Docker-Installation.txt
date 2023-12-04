@@ -1,0 +1,7 @@
+sudo apt get update
+sudo apt install docker.io
+docker --version
+sudo usermod -aG docker $USER
+sudo reboot
+# Login again
+docker ps
